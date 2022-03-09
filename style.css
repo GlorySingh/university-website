@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    padding: 7px 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #dddddd;
+    gap: 20px;
+}
+
+.univ-logo img {
+    height: 100px;
+}
+
+.univ-heading {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    color: #537893;
+}
+
+.mid-container {
+    /* border: 2px solid black; */
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    background-color: #a9cde8;
+}
+
+.card1 iframe {
+    border-radius: 10px;
+}
+
+.card2 img {
+    width: 350px;
+}
+
+.buttons {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+.card2 a:hover {
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
